@@ -144,11 +144,13 @@ var lineBreakMode: NSLineBreakMode = .ByWordWrapping
 var lineBreakMode: NSLineBreakMode = NSLineBreakMode.ByWordWrapping
 ```
 
-## ディレクトリ構成
-未記述
+## ディレクトリ構成は
+   ディレクトリ構成は、MVVMのOSSの[kickstarter](https://github.com/kickstarter/ios-oss)を参考にします。
 
 ---
 # 参考:
  > [eureka Swift Style Guide](https://github.com/eure/swift-style-guide/blob/master/README_jp.md#%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%83%83%E3%82%AF%E3%81%A8%E5%AE%89%E5%85%A8%E6%80%A7)
 
  > [Swift Style Guide](https://google.github.io/swift/#identifiers)
+
+ > [kickstarter](https://github.com/kickstarter/ios-oss)
