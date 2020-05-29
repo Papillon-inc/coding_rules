@@ -54,6 +54,7 @@ Navigators/
 Utilities/
 ViewModels/
 Views/
+  |- Components/
 AppDelegate.swift
 Info.plist
 ```
@@ -72,6 +73,9 @@ Info.plist
 
 ### Views
 ビューのファイル（`View.swift`）を保管します。
+
+### Views/Components
+ボタンやラベルなどの部品を保管します。
 
 ---
 
