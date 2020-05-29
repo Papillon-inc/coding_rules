@@ -13,6 +13,12 @@
     - [View](###View)
     - [ViewModel](###ViewModel)
   - [MVVMの構成](##MVVMの構成)
+  - [ディレクトリ構成](##ディレクトリ構成)
+    - [Models](###Models)
+    - [Navigators](###Navigators)
+    - [Utilities](###Utilities)
+    - [ViewModels](###ViewModels)
+    - [Views](###Views)
 
 ---
 
@@ -39,6 +45,33 @@
  <img width="873" alt="image" src="https://user-images.githubusercontent.com/41826375/83253877-b33faa00-a1e8-11ea-97c4-df16199d7e07.png">
 
 ViewModelには、RxSwiftというものを用います。
+
+## ディレクトリ構成
+ディレクトリ構成は、以下の通りです。
+```
+Models/
+Navigators/
+Utilities/
+ViewModels/
+Views/
+AppDelegate.swift
+Info.plist
+```
+
+### Models
+モデルのファイル（`Model.swift`）を保管します。
+
+### Navigators
+画面遷移を扱う`Navigator`を保管します。
+
+### Utilities
+汎用的なクラスを保管します。
+
+### ViewModels
+モデルとビューの中間のファイル（`ViewModel.swift`）を保管します。
+
+### Views
+ビューのファイル（`View.swift`）を保管します。
 
 ---
 
