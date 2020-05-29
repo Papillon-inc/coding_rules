@@ -61,26 +61,26 @@
 <tr>
 <td><pre lang=swift>
 class Icon {
-
    let image: UIImage
    var completion: (() -> Void)
 
    init(image: UIImage) {
-
       self.image = image
-      self.completion = { [weak self] in self?.didComplete() }
+      self.completion = { [weak self in self?.didComplete()] }
+
    }
 
    func doSomething() {
 
       self.doSomethingElse()
    }
+
 }
+
 </pre></td>
 <td><pre lang=swift>
 class Icon {
    let image: UIImage
-
    init(image: UIImage) {
       self.image = image
       self.completion = { [weak self] in print("done"); self?.didComplete() }
