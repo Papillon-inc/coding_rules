@@ -1,4 +1,4 @@
-# coding_rules
-Coding rules in Papillon, inc.
+# rules
+Rules in Papillon, inc.
 
-株式会社Papillonでの開発で用いられるコード規約をまとめておきます。
+株式会社Papillonでの開発で用いられる規約をまとめておきます。
