@@ -11,15 +11,15 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="208" alt="image" src="https://user-images.githubusercontent.com/41826375/83261797-e426db80-a1f6-11ea-952e-3f83dfb28dab.png">
 
-  - PlaneSquareButton
+  - PlainSquareButton
 
   <img width="51" alt="image" src="https://user-images.githubusercontent.com/41826375/83261842-fa349c00-a1f6-11ea-83b8-2fb76b92ae98.png">
 
-  - PlaneLabel
+  - PlainLabel
 
   <img width="260" alt="image" src="https://user-images.githubusercontent.com/41826375/83261829-f3a62480-a1f6-11ea-95f5-9c85521a5690.png">
 
-  - PlaneSquareBanner
+  - PlainSquareBanner
 
   <img width="275" alt="image" src="https://user-images.githubusercontent.com/41826375/83261968-26e8b380-a1f7-11ea-9212-3a96fcd942b3.png">
 
@@ -47,7 +47,7 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="252" alt="image" src="https://user-images.githubusercontent.com/41826375/83262081-55ff2500-a1f7-11ea-8a2b-a29f332e68f2.png">
 
-  - PlaneCircleButton
+  - PlainCircleButton
 
   <img width="51" alt="image" src="https://user-images.githubusercontent.com/41826375/83262154-6fa06c80-a1f7-11ea-8b91-7cae49415a12.png">
 
@@ -55,7 +55,7 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="276" alt="image" src="https://user-images.githubusercontent.com/41826375/83262167-76c77a80-a1f7-11ea-9591-40fc01ef5daa.png">
 
-  - PlaneSquareVideoCard
+  - PlainSquareVideoCard
 
   <img width="285" alt="image" src="https://user-images.githubusercontent.com/41826375/83262260-a70f1900-a1f7-11ea-8163-d94478896470.png">
 
@@ -71,7 +71,7 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="59" alt="image" src="https://user-images.githubusercontent.com/41826375/83262354-ca39c880-a1f7-11ea-8273-969dcc764047.png">
 
-  - PlaneProceedableBanner
+  - PlainProceedableBanner
 
   <img width="295" alt="image" src="https://user-images.githubusercontent.com/41826375/83262392-dcb40200-a1f7-11ea-8f21-afdcbd4e66ff.png">
 
@@ -83,19 +83,19 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="94" alt="image" src="https://user-images.githubusercontent.com/41826375/83262416-e8072d80-a1f7-11ea-856b-daae17920eab.png">
 
-  - PlaneToggleButton
+  - PlainToggleButton
 
   <img width="81" alt="image" src="https://user-images.githubusercontent.com/41826375/83262829-8dba9c80-a1f8-11ea-9730-ddf6f63f36d9.png">
 
-  - PlaneDropdownMenu
+  - PlainDropdownMenu
 
   <img width="252" alt="image" src="https://user-images.githubusercontent.com/41826375/83262855-9ca14f00-a1f8-11ea-8791-4296bdcac321.png">
 
-  - PlaneLikableBanner
+  - PlainLikableBanner
 
   <img width="277" alt="image" src="https://user-images.githubusercontent.com/41826375/83262875-a4f98a00-a1f8-11ea-9cff-9722a616dac8.png">
 
-  - PlaneSquareBigCard
+  - PlainSquareBigCard
 
   <img width="282" alt="image" src="https://user-images.githubusercontent.com/41826375/83262896-acb92e80-a1f8-11ea-85a1-60a4aaff0cd4.png">
 
@@ -107,7 +107,7 @@ E-playersで使用される部品を列挙していきます。
 
   <img width="172" alt="image" src="https://user-images.githubusercontent.com/41826375/83263067-f7d34180-a1f8-11ea-9159-d94c5be9b703.png">
 
-  - PlaneEditableSquareButton
+  - PlainEditableSquareButton
 
   <img width="110" alt="image" src="https://user-images.githubusercontent.com/41826375/83263092-03266d00-a1f9-11ea-98c3-d578518fc7e3.png">
 
