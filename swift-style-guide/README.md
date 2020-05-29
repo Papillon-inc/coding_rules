@@ -56,41 +56,41 @@
    - 型を示すコロン（`:`）の前にはスペースを入れず、後ろには半角スペースを入れるようにしましょう。
    - `case`文のコロン（`:`）は前に半角スペースを入れず、後ろには半角スペースを一つ入れるか、新しい行にするようにしましょう。
    - 型の宣言をした部分は、後ろに一行以上の空行をいれるようにしましょう。
-   <table>
-      <tr><th>OK</th><th>NG</th></tr>
-      <tr>
-      <td><pre lang=swift>
-      class Icon {
+<table>
+<tr><th>OK</th><th>NG</th></tr>
+<tr>
+<td><pre lang=swift>
+class Icon {
 
-         let image: UIImage
-         var completion: (() -> Void)
+   let image: UIImage
+   var completion: (() -> Void)
 
-         init(image: UIImage) {
-         
-            self.image = image
-            self.completion = { [weak self] in self?.didComplete() }
-         }
-         
-         func doSomething() {
-         
-            self.doSomethingElse()
-         }
-      }
-      </pre></td>
-      <td><pre lang=swift>
-      class Icon {
-         let image: UIImage
+   init(image: UIImage) {
 
-         init(image: UIImage) {
-            self.image = image
-            self.completion = { [weak self] in print("done"); self?.didComplete() }
-         }
-         
-         func doSomething() { self.doSomethingElse() }
-      }
-      </pre></td>
-      </tr>
-   </table>
+      self.image = image
+      self.completion = { [weak self] in self?.didComplete() }
+   }
+
+   func doSomething() {
+
+      self.doSomethingElse()
+   }
+}
+</pre></td>
+<td><pre lang=swift>
+class Icon {
+   let image: UIImage
+
+   init(image: UIImage) {
+      self.image = image
+      self.completion = { [weak self] in print("done"); self?.didComplete() }
+   }
+
+   func doSomething() { self.doSomethingElse() }
+}
+</pre></td>
+</tr>
+</table>
 
 
 ### 括弧
