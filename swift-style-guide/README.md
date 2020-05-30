@@ -41,7 +41,7 @@
 ### ファイル名の付け方
    - クラス名は、`JohnLennon`のように**PascalCase**で付けましょう。
    - 単なるクラス`JohnLennon`のみを含むファイルは、`JohnLennon.swift`と名付けましょう。
-   - 自作Extensionの`Singable`のみを実装しているクラス`JohnLennon`を含むファイルは、`JohnLennon+Singable.swift`と名づけるようにしましょう。
+   - Protocolの`Singable`のみを実装しているクラス`JohnLennon`を含むファイルは、`JohnLennon+Singable.swift`と名づけるようにしましょう。
 
 
 
