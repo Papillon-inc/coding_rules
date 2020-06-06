@@ -114,6 +114,10 @@ E-playersで使用される部品を列挙していきます。
   - RoundTab
 
   <img width="197" alt="image" src="https://user-images.githubusercontent.com/41826375/83263115-0a4d7b00-a1f9-11ea-8957-5b5ecc766bf9.png">
+  
+  - PlainSimpleProceedableBanner
+  
+  ![image](https://user-images.githubusercontent.com/41826375/83529264-1309be00-a525-11ea-975b-00136e30d15e.png)
 
 ---
 ## コンポーネント分けの難しかった画面
