@@ -25,6 +25,9 @@
 ## MVVMとは
   MVVMは、ユーザーにインターフェースを提供するためのViewと、DBやサーバーと通信の処理を行ったりするModelと、その2つの中間でデータバインディングをするViewModelの3つから構成されるアーキテクチャのことです。
 
+  **参考**
+  > https://github.com/rockname/ArchitectureSampleWithFirebase/tree/mvvm/ArchitectureSampleWithFirebase
+
 ## MVVMの構成要素
   MVVMを構成する3つの要素について説明します。
 
