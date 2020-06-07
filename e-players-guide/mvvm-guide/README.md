@@ -24,6 +24,7 @@
 
 ## MVVMとは
   MVVMは、ユーザーにインターフェースを提供するためのViewと、DBやサーバーと通信の処理を行ったりするModelと、その2つの中間でデータバインディングをするViewModelの3つから構成されるアーキテクチャのことです。
+  `RxSwift`と、`RxCocoa`というフレームワークを使います。
 
   **参考**
   > https://github.com/rockname/ArchitectureSampleWithFirebase/tree/mvvm/ArchitectureSampleWithFirebase
@@ -34,13 +35,19 @@
   ### Model
   DBやサーバーと通信を行います。
   他にも、データ型の定義などを行います。
+  ModelからViewModelに、実際に使うデータを受け渡します。
+  Modelは、1クラスにつき1責務くらいにしておくのがよいとされています。
+  （例：　フレンドリストの受け渡し、ログイン処理の通信）
 
   ### ViewModel
   ViewとModel間の伝達の役目を持ちます。
-  Viewのために状態を保持したりもします。
+  Viewの状態を監視して、例えばボタンならクリックされたときにModelからデータを取得する、というような処理を再現することができます。
+  
 
   ### View
   ViewModelから受け取ったデータを、データバインディングで自動的に描画します。
+  1つの画面ごとに1つのViewControllerがあり、それが1つのViewModelと対応しています。
+  ViewControllerに配置されているViewで、イベントを発生させたいものを1つのViewModelでまとめて監視します。
 
 
 ## MVVMの構成
@@ -63,7 +70,7 @@ Info.plist
 ```
 
 ### Models
-モデルのファイル（`Model.swift`）を保管します。
+モデルのファイル（`AuthModel.swift`）を保管します。
 
 ### Navigators
 画面遷移を扱う`Navigator`を保管します。
@@ -72,10 +79,10 @@ Info.plist
 汎用的なクラスを保管します。
 
 ### ViewModels
-モデルとビューの中間のファイル（`ViewModel.swift`）を保管します。
+モデルとビューの中間のファイル（`MyAwesomeViewModel.swift`）を保管します。
 
 ### Views
-ビューのファイル（`View.swift`）を保管します。
+ビューのファイル（`MyAwesomeView.swift`）を保管します。
 
 ### Views/Components
 ボタンやラベルなどの部品を保管します。
