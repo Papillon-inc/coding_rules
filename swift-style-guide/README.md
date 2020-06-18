@@ -87,6 +87,7 @@
 
 ```swift
 public struct Person {
+
    public let name: String
    public let phoneNumber: String
 
@@ -99,6 +100,7 @@ public struct Person {
 ```
 ```swift
 public struct Person {
+
    public let name: String
    public let phoneNumber: String
 
