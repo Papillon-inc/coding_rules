@@ -93,8 +93,8 @@ public struct Person {
 
    // GOOD.
    public init(name: String, phoneNumber: String) {
-      self.name = name
-      self.phoneNumber = phoneNumber
+      name = name
+      phoneNumber = phoneNumber
    }
 }
 ```
